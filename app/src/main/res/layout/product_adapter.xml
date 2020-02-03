@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ProductAdapter">
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewProductName"
+        android:text="Product Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewTaxName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tax Name"
+        android:layout_below="@+id/textViewProductName"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/textViewTaxAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tax Amount"
+        android:layout_below="@+id/textViewTaxName"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
